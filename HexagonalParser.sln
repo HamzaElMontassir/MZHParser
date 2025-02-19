@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4346EB54-DB75-45BE-9C11-C20D6A048570}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.Application", "src\HexagonalParser.Application\HexagonalParser.Application.vbproj", "{67A6A8BD-7AEA-487F-BFFF-85EC0520742C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.Domain", "src\HexagonalParser.Domain\HexagonalParser.Domain.vbproj", "{613080F6-4014-45E8-99D1-6938126BFCA1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.Infrastructure", "src\HexagonalParser.Infrastructure\HexagonalParser.Infrastructure.vbproj", "{6F56EC57-4854-4466-B4E5-54F1E14CB12B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.Web", "src\HexagonalParser.Web\HexagonalParser.Web.vbproj", "{09D5CC7D-DAD1-4E36-AF9A-1BB883587894}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.WorkerService", "src\HexagonalParser.WorkerService\HexagonalParser.WorkerService.vbproj", "{E3B355E0-B784-4397-B891-7E82518BDE1C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.API", "src\HexagonalParser.API\HexagonalParser.API.vbproj", "{BEDE208D-2064-4568-B59C-5A6125277A2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{293A4639-8DA1-400E-97F4-622F09B68565}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.UnitTests", "tests\HexagonalParser.UnitTests\HexagonalParser.UnitTests.vbproj", "{BAD2D832-6CD8-4B28-8599-5F2C09918BE7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.IntegrationTests", "tests\HexagonalParser.IntegrationTests\HexagonalParser.IntegrationTests.vbproj", "{48C3F0D6-E909-4276-B97D-54A002BA994E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HexagonalParser.FunctionalTests", "tests\HexagonalParser.FunctionalTests\HexagonalParser.FunctionalTests.vbproj", "{63D99713-9A18-4A33-8EBF-14678E1292CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - WorkerService", "01 - WorkerService", "{8CDC51FA-EF9A-4C75-8D5D-234ACEE610DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Web", "02 - Web", "{8640BA78-72DD-431A-909D-BB7E0512DAD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3377A201-9E41-4C56-80D8-8FBB93E1A946}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\SQL\HexagonalParserSchema.sql = scripts\SQL\HexagonalParserSchema.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A6A8BD-7AEA-487F-BFFF-85EC0520742C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A6A8BD-7AEA-487F-BFFF-85EC0520742C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A6A8BD-7AEA-487F-BFFF-85EC0520742C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A6A8BD-7AEA-487F-BFFF-85EC0520742C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613080F6-4014-45E8-99D1-6938126BFCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613080F6-4014-45E8-99D1-6938126BFCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613080F6-4014-45E8-99D1-6938126BFCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613080F6-4014-45E8-99D1-6938126BFCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F56EC57-4854-4466-B4E5-54F1E14CB12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F56EC57-4854-4466-B4E5-54F1E14CB12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F56EC57-4854-4466-B4E5-54F1E14CB12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F56EC57-4854-4466-B4E5-54F1E14CB12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D5CC7D-DAD1-4E36-AF9A-1BB883587894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D5CC7D-DAD1-4E36-AF9A-1BB883587894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D5CC7D-DAD1-4E36-AF9A-1BB883587894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D5CC7D-DAD1-4E36-AF9A-1BB883587894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B355E0-B784-4397-B891-7E82518BDE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B355E0-B784-4397-B891-7E82518BDE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B355E0-B784-4397-B891-7E82518BDE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B355E0-B784-4397-B891-7E82518BDE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDE208D-2064-4568-B59C-5A6125277A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDE208D-2064-4568-B59C-5A6125277A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDE208D-2064-4568-B59C-5A6125277A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDE208D-2064-4568-B59C-5A6125277A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD2D832-6CD8-4B28-8599-5F2C09918BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD2D832-6CD8-4B28-8599-5F2C09918BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD2D832-6CD8-4B28-8599-5F2C09918BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD2D832-6CD8-4B28-8599-5F2C09918BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C3F0D6-E909-4276-B97D-54A002BA994E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C3F0D6-E909-4276-B97D-54A002BA994E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C3F0D6-E909-4276-B97D-54A002BA994E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C3F0D6-E909-4276-B97D-54A002BA994E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D99713-9A18-4A33-8EBF-14678E1292CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D99713-9A18-4A33-8EBF-14678E1292CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D99713-9A18-4A33-8EBF-14678E1292CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D99713-9A18-4A33-8EBF-14678E1292CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67A6A8BD-7AEA-487F-BFFF-85EC0520742C} = {4346EB54-DB75-45BE-9C11-C20D6A048570}
+		{613080F6-4014-45E8-99D1-6938126BFCA1} = {4346EB54-DB75-45BE-9C11-C20D6A048570}
+		{6F56EC57-4854-4466-B4E5-54F1E14CB12B} = {4346EB54-DB75-45BE-9C11-C20D6A048570}
+		{09D5CC7D-DAD1-4E36-AF9A-1BB883587894} = {4346EB54-DB75-45BE-9C11-C20D6A048570}
+		{E3B355E0-B784-4397-B891-7E82518BDE1C} = {4346EB54-DB75-45BE-9C11-C20D6A048570}
+		{BEDE208D-2064-4568-B59C-5A6125277A2B} = {4346EB54-DB75-45BE-9C11-C20D6A048570}
+		{BAD2D832-6CD8-4B28-8599-5F2C09918BE7} = {293A4639-8DA1-400E-97F4-622F09B68565}
+		{48C3F0D6-E909-4276-B97D-54A002BA994E} = {293A4639-8DA1-400E-97F4-622F09B68565}
+		{63D99713-9A18-4A33-8EBF-14678E1292CA} = {293A4639-8DA1-400E-97F4-622F09B68565}
+		{8CDC51FA-EF9A-4C75-8D5D-234ACEE610DB} = {4346EB54-DB75-45BE-9C11-C20D6A048570}
+		{8640BA78-72DD-431A-909D-BB7E0512DAD3} = {4346EB54-DB75-45BE-9C11-C20D6A048570}
+	EndGlobalSection
+EndGlobal
